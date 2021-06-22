@@ -19,8 +19,8 @@
 
         .background
         {
-            background-image: url("./assets/img/background.jpg");
-            background-repeat: repeat-x;
+            background-image: url("./assets/img/backgroungbolos.jpg");
+            background-repeat: repeat;
             width: 100vw;
         }
 
@@ -30,17 +30,22 @@
             width: 100vw;
         }
 
+        .fonte
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
     </style>
 
   </head>
   <body class="background">
     
     <!--MENU-->
-<!--<div class="container">-->
+    <!--<div class="container">-->
     <!--TAG NAV - NAVEGAÇÃO-->
     <nav class="navbar navbar-expand-lg navbar-light backgroundnav">
-        <div class="container-fluid">
-          
+        <div class="container">
           
           <!--Só aparece quado a tela esta menor-->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +75,7 @@
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
     <!--/MENU-->
 
@@ -85,10 +90,9 @@
           </div>
       </div>
     </div>
-
     <!--/Post-->
 
-    <!--Home QUEM SOMOS-->
+    <!--Home-->
 
 <div class="container">
     <section id="home">
@@ -100,7 +104,7 @@
                     Misture: amor, alegria, afeto e um doce nosso para um dia perfeito!
                 </p>
 
-                <img src="./assets/img/desenhoBolo.jpg" width="80%" height="80%" alt="Desenho de uma confeiteira decorando um bolo" class="p-3">
+                <img src="./assets/img/desenhandoBolo.png" width="80%" height="80%" alt="Desenho de uma confeiteira decorando um bolo" class="p-3">
 
             </div>
 
@@ -135,7 +139,7 @@
     </section>
 </div>
 
-    <!--/Home QUEM SOMOS-->
+    <!--/Home-->
 
 
     <!--CONTATO
@@ -211,38 +215,43 @@
 
     <!--DOCESSS-->
 
-    <h3 class="display-7 d-flex justify-content-center"> Bolos de Pote</h3>
+
 
     <!--BOLO DE POTE-->
+<div class="container">
+    <p class="display-7 d-flex justify-content-center fonteTamanho"> Bolos de Pote</p>
     <section id="boloPote">
-    <div class="card-group p-5">
-        <div class="card">
-          <img src="./assets/img/boloPoteNinhoMor.png" class="card-img-top rounded-circle" alt="...">
-          <div class="card-body">
-            <p class="card-text">Ninho com Morango</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+        
+        <div class="card-group p-5">
+            <div class="card">
+            <img src="./assets/img/boloPoteNinhoMor.png" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+                <p class="card-text">Ninho com Morango</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            </div>
+            <div class="card">
+            <img src="./assets/img/boloPoteOreo.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+                <p class="card-text">Oreo</p>
+                <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
+            </div>
+            </div>
+            <div class="card">
+            <img src="./assets/img/boloPoteSensação.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+                <p class="card-text">Sensação</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 hours ago</small></p>
+            </div>
+            </div>
         </div>
-        <div class="card">
-          <img src="./assets/img/boloPoteOreo.jpg" class="card-img-top rounded-circle" alt="...">
-          <div class="card-body">
-            <p class="card-text">Oreo</p>
-            <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./assets/img/boloPoteSensação.jpg" class="card-img-top rounded-circle" alt="...">
-          <div class="card-body">
-            <p class="card-text">Sensação</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 hours ago</small></p>
-          </div>
-        </div>
-      </div>
     </section>
+</div>
     <!--/BOLO DE POTE-->
 
 
     <!--BOLO DE QUILO-->
+<div class="container">
     <div class="row d-flex align-items-center p-2">
 
         <div class="col-md-7">
@@ -282,13 +291,13 @@
             </section>
         </div>
     </div>
+</div>
     <!--/BOLO DE QUILO-->
 
-
-
-    <h3 class="display-7 d-flex justify-content-center p-5"> Cones </h3>
-
     <!--CONES-->
+    <p class="display-7 d-flex justify-content-center p-5 fonteTamanho"> Cones </p>
+
+<div class="container">
     <section id="cones">
     <div class="card-group ">
         <div class="card">
@@ -314,21 +323,20 @@
         </div>
       </div>
     </section>
-    <!--/BOLO DE POTE-->
-
-
+</div>
+    <!--/CONES-->
     <!--/DOCESSS-->
 
 
     <!--PRESENTES-->
 
-    <h3 class="display-7 d-flex p-5"> 
-        <p>Nem de humanas, nem de exatas, sou de doces!</p>
-    </h3>
+    <p class="display-7 d-flex p-5 fonteTamanho"> 
+        Nem de humanas, nem de exatas, sou de doces!
+    </p>
 
 <div class="backgroundnav">
     <section id="presentes">
-        <h3 class="display-7 d-flex justify-content-center p-2"> Ideias de Presentes: </h3>
+        <p class="display-7 d-flex justify-content-center p-2 fonteTamanho"> Ideias de Presentes: </p>
         <div class="row">
             <div class="col-md-12 d-flex justify-content-center p-2">
                 <img src="./assets/img/Presentebanner (2).jpg" alt="Post vovos" width="100%" height="100%">
@@ -397,11 +405,11 @@
 
 </div>
 
-<!--/CONTATO-->
+    <!--/CONTATO-->
 
 
 
-<!--RODAPÉ-->
+    <!--RODAPÉ-->
     <footer class="backgroundnav d-flex justify-content-center"> 
 
         <!-- <div class="container margem30">
@@ -421,13 +429,12 @@
          <p class="text-center">Todos os direitos reservados. Juliana Ribeiro &copy</p>
 
      </footer>
-<!--/RODAPÉ-->
-
-<!--DIV CONTAINER ACABANDO AQ
-</div>-->
+    <!--/RODAPÉ-->
 
 
-<script src="./assets/js/script.js"> </script>
+
+
+    <script src="./assets/js/script.js"> </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
